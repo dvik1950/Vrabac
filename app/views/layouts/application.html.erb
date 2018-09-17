@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Vrabac</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <title>Vrabac</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag    'application', media: 'all',
+                             'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  </script>
+  <![endif]-->
+</head>
+<body>
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "Vrabac", '#', id: "logo" %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+    <nav>
 
-  <body>
-    <%= yield %>
-  </body>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Početna",   '#' %></li>
+        <li><%= link_to "O Vrapcu",   '#' %></li>
+        <li><%= link_to "Uloguj se", '#' %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="container">
+  <%= yield %>
+</div>
+
+<footer class="footer">
+  <small>
+    Projektni rad iz <a href="https://elab.fon.bg.ac.rs/osnovne-akademske-studije/internet-tehnologije/">Internet tehnologija</a>,
+    radili:
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to "Viktor Despić",   'https://moodle.elab.fon.bg.ac.rs/user/profile.php?id=7915' %></li>
+      <li><%= link_to "Stefan Grbić", 'https://moodle.elab.fon.bg.ac.rs/user/profile.php?id=7909' %></li>
+    </ul>
+  </nav>
+</footer>
+</body>
 </html>
