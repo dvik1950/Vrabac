@@ -1,0 +1,28 @@
+<h1>Izmeni profil</h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(@user) do |f| %>
+      <%= render 'shared/error_messages' %>
+
+      <%= f.label :name, "Korisničko Ime" %>
+      <%= f.text_field :name, class: 'form-control' %>
+
+      <%= f.label :email, "Email" %>
+      <%= f.email_field :email, class: 'form-control' %>
+
+      <%= f.label :password, "Šifra" %>
+      <%= f.password_field :password, class: 'form-control' %>
+
+      <%= f.label :password_confirmation, "Potvrdi šifru" %>
+      <%= f.password_field :password_confirmation, class: 'form-control' %>
+
+      <%= f.submit "Potvrdi izmene", class: "btn btn-default" %>
+    <% end %>
+
+    <div class="gravatar_edit">
+      <%= gravatar_for @user %>
+      <a href="http://gravatar.com/emails" target="_blank">Izmeni profilnu sliku</a>
+    </div>
+  </div>
+</div>
