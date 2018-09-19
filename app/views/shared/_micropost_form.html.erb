@@ -1,0 +1,7 @@
+<%= form_for(@micropost) do |f| %>
+  <%= render 'shared/error_messages', object: f.object %>
+  <div class="field">
+    <%= f.text_area :content, placeholder: "Napiši novu objavu" %>
+  </div>
+  <%= f.submit "Objavi", class: "btn btn-default" %>
+<% end %>
