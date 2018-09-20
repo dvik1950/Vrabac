@@ -77,8 +77,8 @@
       <file leaf-file-name="about.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="85" selection-start-line="31" selection-start-column="85" selection-end-line="31" selection-end-column="85" />
+            <state relative-caret-position="420">
+              <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -87,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
         </entry>
@@ -450,12 +450,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537186692820</updated>
-      <workItem from="1537186694450" duration="44936000" />
+      <workItem from="1537186694450" duration="45116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44936000" />
+    <option name="totallyTimeSpent" value="45116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="816" extended-state="6" />
@@ -759,14 +759,14 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="85" selection-start-line="31" selection-start-column="85" selection-end-line="31" selection-end-column="85" />
+        <state relative-caret-position="420">
+          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
         </state>
       </provider>
     </entry>
